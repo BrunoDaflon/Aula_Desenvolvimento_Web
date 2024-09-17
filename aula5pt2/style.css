@@ -1,0 +1,51 @@
+body {
+	background-color : #FF8080;
+	background-color : pink;
+	background-color : rgb(255, 120, 10);
+	background-color : rgba(255, 0, 0, 0.4);
+	margin: 20px;
+	font-family: arial
+}
+
+.sessao-1 {
+	padding-left: 20px;
+	border: solid 10px black;
+	margin-bottom: 10%;
+	
+	font-family: "Open Sans", sans-serif;
+}
+.sessao-2 {
+	border: solid 10px;
+	border-color: red black blue white;
+	font-family: "Open Sans", sans-serif;
+}
+.sessao-1 > h2{
+color: blue;
+}
+.sessao-1 > p {
+color: purple;
+}
+.sessao-2 > h2 {
+color: yellow;
+}
+.marrom {
+color: brown;
+font-size: 30px
+}
+/*ID*/
+#exemplo {
+color: orange;
+font-size: 50px;
+}
+/*COLOCAR ALINHAMENTO A DIREITA NA CLASSE-2 E NO ID*/
+.sessao-2, #exemplo {
+text-align: right;
+}
+.sessao-2 p+p {
+color: green;
+}
+		
+.sessao-2 p+p+p {
+color: blue;
+}
+

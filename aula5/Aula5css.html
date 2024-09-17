@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Parte 2 - Introdução ao CSS</title>
+		<!--CSS externo deve ser assim-->
+		<link rel="stylesheet" href="style.css">
+		<style>
+		.sessao-1 {
+			text-align: center;
+		}
+		.sessao-1 > h2{
+			color: blue;
+		}
+		.sessao-1 > p {
+			color: purple;
+		}
+		.sessao-2 > h2 {
+			color: yellow;
+		}
+		.marrom {
+			color: brown;
+			font-size: 30px
+		}
+		/*ID*/
+		#exemplo {
+			color: orange;
+			font-size: 50px;
+		}
+		/*COLOCAR ALINHAMENTO A DIREITA NA CLASSE-2 E NO ID*/
+		.sessao-2, #exemplo {
+			text-align: right;
+		}
+		.sessao-2 p+p {
+				color: green;
+		}
+		
+		.sessao-2 p+p+p {
+				color: blue;
+		}
+		</style>
+	</head>
+	<body>
+		<div class="sessao-1">
+			<h1 style="color: red">Aqui será RED</h1>
+			<h2>Aqui será BLUE</h2>
+			<p style="color: purple">Aqui será PURPLE</p>
+		</div>
+		<div class="sessao-2" id="direita">
+			<h2>Aqui será YELLOW</h2>
+			<h3 class="marrom">Aqui será BROWN</h3>
+			<p>Aqui será BLACK</p>
+			<p>Aqui será GREEN</p>
+			<p>Aqui será BLUE</p>
+		</div>
+		<div id="exemplo">
+			<p>Aqui será ORANGE</p>
+			<p class="marrom">Aqui também será BROWN</p>
+		</div>
+	</body>
+</html>
