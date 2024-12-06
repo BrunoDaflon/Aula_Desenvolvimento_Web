@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Vista da P1</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<style>
+		body {
+		margin: 20px;
+		background-color: black;
+		color: white;
+		font-family: arial;
+		}
+		h1 {
+		color: #ffd700;
+		text-align: center;
+		text-shadow: 2px 2px 5px #ff4500;
+		}
+		table {
+		text-align: center;
+		border: 10px solid greenyellow;
+		margin: 0 auto;		
+		border-collapse: collapse;
+		}
+		thead {
+		background-color: #8b0000;
+		border: 3px solid #ffd700;
+		color: #ffd700;
+		padding: 12px;
+		
+		}
+		tfoot {
+		background-color: #8b0000;
+		color: #ffd700;
+		padding: 12px;
+		border: 3px solid #ffd700
+		text-align: center;
+		}
+		#topo {
+		background-color: #ffd700;
+		color: black;
+		font-size: 24px;
+		}
+		#idmib {
+		color: white;
+		background-color: #001111;
+		}
+		#idbatman {
+		color: white;
+		background-color: #001111
+		}
+		#idmatrix {
+		color: white;
+		background-color: #001111
+		}
+		#idkillbill {
+		color: white;
+		background-color: #001111;
+		}
+		#corpreco {
+		color: #00FF00;
+		}
+	</style>
+	<h1>Cinema Retrô Jo</h1>
+	<section id="tabela">
+		<table>
+			<thead>
+				<tr>
+					<th colspan="3" id="topo">Filmes em Destaque</th>
+				</tr>
+				<tr>
+					<th>Título</th>
+					<th>Pôster</th>
+					<th>Preço</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td id="idmib">MIB</td>
+					<td><img src="mib.webp" width="70px"></td>
+					<td id="corpreco"><b>R$ 59,90<b></td>
+				</tr>
+				<tr>
+					<td id="idbatman">Batman: O retorno</td>
+					<td><img src="batman.jpg" width="70px"></td>
+					<td id="corpreco"><b>R$ 54,90<b></td>
+				</tr>
+				<tr>
+					<td id="idmatrix">Matrix</td>
+					<td><img src="matrix.jpg" width="70px"></td>
+					<td id="corpreco"><b>R$ 64,90</b></td>
+				</tr>
+				<tr>
+					<td id="idkillbill">Kill Bill - Vol 1</td>
+					<td><img src="killbill.webp" width="70px"></td>
+					<td id="corpreco"><b>R$ 49,90</b></td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td colspan="3"><i>Dados de setembro de 2024, exemplo.</i></td>
+				</tr>
+			</tfoot>
+		</table>
+	</section>
+</body>
+</html>
