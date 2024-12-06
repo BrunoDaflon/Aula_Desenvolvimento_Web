@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Formulário</title>
+		<link reel="stylesheet" hrf="style.css">
+	</head>
+	<body>
+		<h1>Formulário</h1>
+		<form>
+			<!--LEGENDA PARA NOME-->
+			<label for="campo_nome">Nome:</label>
+			<input id="campo_nome" type="text" placeholder="Digite seu nome aqui" required>
+			
+			<br><br>
+			<!--LEGENDA PARA EMAIL-->
+			<label for="campo_email">Email:</label>
+			<input id="campo_email" type="email" placeholder="Digite seu E-mail aqui" required>
+			
+			<br><br>
+			<!--LEGENDA PARA SENHA-->
+			<label for="campo_senha">Senha:</label>
+			<input id="campo_senha" type="password" placeholder="Digite uma senha aqui" required>
+			
+			<br><br>
+			<hr>
+			<!--Tipo radio pode selecionar apenas 1 opção-->
+			<h2>Animal de estimação</h2>
+			<input type="radio" id="dog" name="animal" value="Cachorro">
+			<label for="dog">Cachorro</label>
+						
+			<br><br>
+			
+			<input type="radio" id="cat" name="animal" value="Gato">
+			<label for="cat">Gato</label>
+						
+			<br><br>
+			
+			<input type="radio" id="bird" name="animal" value="Passarinho">
+			<label for="bird">Passarinho</label>
+			
+			<br><br>
+			<hr>
+			<!--Tipo checkbox pode selecionar mais de 1 opção-->
+			<h2>O que você tem em casa?</h2>
+			<input type="checkbox" name="item1" value="TV"
+			<label for="item1">TV</label>
+			<br><br>
+			<input type="checkbox" name="item2" value="Geladeira"
+			<label for="item2">Geladeira</label>
+			<br><br>
+			<input type="checkbox" name="item3" value="Computador"
+			<label for="item3">Computador</label>
+			
+			<br><br>
+			
+			<h2>Escolha uma cor:</h2>
+			<select name="cores">
+				<option selected disabled value="">Selecione uma cor</option>
+				<option value="vermelho">Vermelho</option>
+				<option value="azul">Azul</option>
+				<option value="amarelo">Amarelo</option>
+				<option value="verde">Verde</option>
+				<option value="preto">Preto</option>
+				<option value="branco">Branco</option>
+			</select>
+			
+			<br><br><br>
+			
+			<h2>Digite sua mensagem:</h2>
+			<br>
+			<textarea name="mensagem" placeholder="Digite aqui a sua mensagem" rows="15" cols="60"></textarea>
+			
+			<br><br>
+			<!--LEGENDA PARA SUBMIT-->
+			<input type="submit" value="Enviar formulário">
+			<br><br>
+			
+			<fieldset>
+				<legend>Dados pessoais</legend>
+				<label>Nome:<input type="text" name="nome" /></label><br />
+				<label>Idade:<input type="text" name="idade" /></label><br />
+			</fieldset>
+			
+			
+		</form><br>
+		<button>Clique aqui</button>
+		<hr><br>
+	</body>
+</html>

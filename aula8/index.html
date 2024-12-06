@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Formulário</title>
+	</head>
+	<body>
+		<h1>Formulário</h1>
+		<fieldset>
+			<legend>Dados pessoais</legend>
+			<label>Nome:<input type="text" name="nome"></label><br/>
+			<label>Endereço:<input type="text" name="endereço"></label><br/>
+			<label>Cidade:<input type="text" name="cidade"></label><br/>
+			<label>Estado:
+			<select name="estado">
+				<option selected disabled value=""required>Escolha o Estado</option>
+				<option value="sao paulo">São Paulo</option>
+				<option value="rio de janeiro">Rio de Janeiro</option>
+				<option value="minas gerais">Minas gerais</option>
+				<option value="espirito santo">Espirito Santo</option>
+			</select>
+			</label>
+		</fieldset>
+		<fieldset>
+			<legend>Dados profissionais</legend>
+			<p>Natureza do cargo</p>
+			<input type="radio" id="gerente" name="cargo" value="gerente">
+			<label for="gerente">Gerência</label>
+			<input type="radio" id="financeiro" name="cargo" value="financeiro">
+			<label for="financeiro">Financeiro</label>
+			<input type="radio" id="recepcao" name="cargo" value="recepcao">
+			<label for="recepcao">Recepção</label>
+			<input type="radio" id="administrativo" name="cargo" value="administrativo">
+			<label for="administrativo">Administrativo</label>
+			<input type="radio" id="juridico" name="cargo" value="juridico">
+			<label for="juridico">Juridico</label>
+			<br>
+			<p>Área de interesse</p>
+			<input type="checkbox" name="item1" value="computacao"
+			<label for="item1">Computação</label>
+			<input type="checkbox" name="item2" value="biologia"
+			<label for="item2">Biologia</label>
+			<input type="checkbox" name="item3" value="meioambiente"
+			<label for="item3">Meio Ambiente</label>
+			<input type="checkbox" name="item4" value="engenharia"
+			<label for="item4">Engenharia</label>
+			<input type="checkbox" name="item5" value="historia"
+			<label for="item4">Historia</label>
+			<br><br>
+			<label>Mini-currículo:
+			<textarea name="curriculo" rows="15" cols="60"></textarea>
+			</label>
+		</fieldset>
+		<br><br>
+		<input type="submit" value="Enviar">
+		<button>Limpar</button>
+	</body>
+</html>
