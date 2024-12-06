@@ -1,0 +1,54 @@
+body {
+	text-align: center;
+	background-color: white;
+}
+button {
+	font-size: 14px;
+	padding: 10px;
+	background-color: rgba(0, 255, 0);
+	color: white;
+	font-weight: bold;
+	border: 3px solid black;
+	border-radius: 15%;
+	margin-bottom: 50px;
+}
+button:hover {
+	background-color: rgba(0, 255, 0, 0.4)
+}
+button:active {
+	padding: 8px;
+	box-shadow: 0px 0px 3px;
+}
+#exemplo {
+	margin-top: 0;
+	margin: auto;
+	width: 200px;
+	height: 200px;
+	border: solid black 10px;
+	background-color: purple;
+	transition: 2s;
+	margin-bottom: 80px;
+	border-radius: 0;
+}
+#exemplo:hover {
+	border-radius: 50%;
+	background-color: red;
+	transform: rotate(-900deg);
+}
+#exemplo2 {
+	margin-top: 0;
+	margin: auto;
+	width: 200px;
+	height: 200px;
+	border: solid black 10px;
+	background-color: blue;
+	transition: 2s;
+	margin-bottom: 20px;
+	border-radius: 50%;
+}
+#exemplo2:hover {
+	border-radius: 0%;
+	background-color: pink;
+	transform: rotate(900deg);
+	border-color: silver;
+}
