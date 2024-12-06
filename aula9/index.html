@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Tabuleiro</title>
+		<link reel="stylesheet" hrf="style.css">
+		<style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            margin: 20px;
+        }
+
+        .tabuleiro {
+            display: grid;
+            grid-template-columns: repeat(5, 100px);
+            grid-template-rows: repeat(5, 100px);
+            width: 500px;
+            height: 500px;
+            border: 10px solid;
+            border-color: tomato red brown;
+            box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        .preto {
+            background-color: black;
+        }
+
+        .branco {
+            background-color: lightgray;
+        }
+		</style>
+	</head>
+	<body>
+    <h1>Meu Tabuleiro</h1>
+    <div class="tabuleiro">
+        <div class="preto"></div><div class="branco"></div><div class="preto"></div><div class="branco"></div><div class="preto"></div>
+        <div class="branco"></div><div class="preto"></div><div class="branco"></div><div class="preto"></div><div class="branco"></div>
+        <div class="preto"></div><div class="branco"></div><div class="preto"></div><div class="branco"></div><div class="preto"></div>
+        <div class="branco"></div><div class="preto"></div><div class="branco"></div><div class="preto"></div><div class="branco"></div>
+        <div class="preto"></div><div class="branco"></div><div class="preto"></div><div class="branco"></div><div class="preto"></div>
+    </div>
+
+	</body>
+</html>
